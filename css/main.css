@@ -20,6 +20,7 @@ h5,
 h6 {
     font-family: 'Intro', sans-serif;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 
@@ -43,6 +44,31 @@ nav {
 
 .desktop-menu {
     display: none;
+}
+
+h2 {
+    color: var(--primary);
+}
+
+h3>span {
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.step {
+    display: flex;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.step__image {
+    width: 48px;
+    height: auto;
+    object-fit: contain;
+}
+
+.step__description {
+    color: grey;
 }
 
 /** Cuando el viewport sea de al menos 768px, muestra el menú de desktop, y oculta el menú móvil */
